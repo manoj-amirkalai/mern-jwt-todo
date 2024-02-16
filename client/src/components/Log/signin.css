@@ -1,0 +1,38 @@
+.body{
+    padding: 5%;
+    width: 20%;
+    margin: 10% 0 0 30%;background: rgba( 51, 102, 182, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+}.button{
+    display: flex;
+    gap: 20%;
+    margin-left: 5%;
+    
+}.link{
+    text-decoration: none;
+    color: azure;
+}h5{
+    margin-left: 5%;
+    margin-top: 10%;
+}.input{
+    margin-top: 20px;
+}
+@media screen and ( max-width: 900px ) {
+    .body{ 
+        margin-left: 20%;
+        width: 52%;
+     }}
+     @media screen and ( max-width: 400px ) {
+        .body{ 
+            margin-left: 10%;
+            width: 72%;
+         }}
+       
